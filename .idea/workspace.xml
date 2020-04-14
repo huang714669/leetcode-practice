@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be200aa5-035d-4c9f-b4b5-394bd4643bd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/binarySearch/Solution04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingWindow/Solution03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingWindow/Solution03Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/Solution06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode-practice/binarySearch/dir.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode-practice/slidingWindow/dir.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binarySearch/dir.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/slidingWindow/dir.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode-practice/dynamicProgramming/dir.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamicProgramming/dir.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/dir.info" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hashTable/Solution01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="210">
               <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/slidingWindow/Solution03.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
+            <state relative-caret-position="330">
               <caret line="28" column="31" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,11 +58,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/binarySearch/Solution04.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+            <state relative-caret-position="780">
+              <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/Solution05.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/string/Solution06.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///opt/jdk1.8.0_201/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28470">
+              <caret line="1969" column="54" selection-start-line="1969" selection-start-column="48" selection-end-line="1969" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -73,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/slidingWindow/Solution03Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="60">
               <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -111,6 +138,8 @@
         <option value="$PROJECT_DIR$/src/slidingWindow/Solution03Test.java" />
         <option value="$PROJECT_DIR$/src/slidingWindow/Solution03.java" />
         <option value="$PROJECT_DIR$/src/binarySearch/Solution04.java" />
+        <option value="$PROJECT_DIR$/src/dynamicProgramming/Solution05.java" />
+        <option value="$PROJECT_DIR$/src/string/Solution06.java" />
       </list>
     </option>
   </component>
@@ -131,6 +160,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,13 +178,7 @@
               <item name="leetcode-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="binarySearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode-practice" type="b2602c69:ProjectViewProjectNode" />
@@ -163,8 +188,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,39 +236,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution04">
-    <configuration name="Solution02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.Solution02" />
-      <module name="leetcode-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.Solution03" />
-      <module name="leetcode-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingWindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution06">
     <configuration name="Solution04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarySearch.Solution04" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="binarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.Solution05" />
+      <module name="leetcode-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.Solution06" />
+      <module name="leetcode-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,11 +309,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution06" />
+        <item itemvalue="Application.Solution05" />
         <item itemvalue="Application.Solution04" />
         <item itemvalue="JUnit.Solution03Test.lengthOfLongestSubstring" />
         <item itemvalue="JUnit.Solution03Test" />
-        <item itemvalue="Application.Solution03" />
-        <item itemvalue="Application.Solution02" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +328,8 @@
       <option name="presentableId" value="Default" />
       <updated>1570363662227</updated>
       <workItem from="1570363665297" duration="2937000" />
-      <workItem from="1586161034019" duration="18844000" />
+      <workItem from="1586161034019" duration="24348000" />
+      <workItem from="1586742597519" duration="3495000" />
     </task>
     <servers />
   </component>
@@ -324,20 +348,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21781000" />
+    <option name="totallyTimeSpent" value="30780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.255119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="UI Designer" order="6" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32963374" />
@@ -351,8 +374,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Flutter Performance" order="12" side_tool="true" />
-      <window_info anchor="right" id="RestServices" weight="0.32982844" />
-      <window_info anchor="right" id="SciView" weight="0.32982844" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24958494" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -364,6 +386,8 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="10" />
+      <window_info anchor="right" id="SciView" order="11" weight="0.32982844" />
+      <window_info anchor="right" id="RestServices" order="12" weight="0.32982844" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,15 +398,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/!.gitignore" />
-    <entry file="file://$PROJECT_DIR$/.gitkeep" />
     <entry file="file://$PROJECT_DIR$/src/binaryIndexedTree/dir.info">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/binarySearch/dir.info">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binarySearch/dir.info" />
     <entry file="file://$PROJECT_DIR$/src/binarySearchTree/dir.info">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -404,9 +423,7 @@
     <entry file="file://$PROJECT_DIR$/src/divideAndConquer/dir.info">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/dir.info">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/dir.info" />
     <entry file="file://$PROJECT_DIR$/src/geometry/dir.info">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -416,18 +433,14 @@
     <entry file="file://$PROJECT_DIR$/src/greedy/dir.info">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hashTable/dir.info">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hashTable/dir.info" />
     <entry file="file://$PROJECT_DIR$/src/heap/dir.info">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lineSweep/dir.info">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedList/dir.info">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedList/dir.info" />
     <entry file="file://$PROJECT_DIR$/src/math/dir.info">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -461,9 +474,7 @@
     <entry file="file://$PROJECT_DIR$/src/segmentTree/dir.info">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/slidingWindow/dir.info">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slidingWindow/dir.info" />
     <entry file="file://$PROJECT_DIR$/src/sort/dir.info">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -498,9 +509,7 @@
     <entry file="file://$PROJECT_DIR$/src/suffixArray/dir.info">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/dir.info">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/dir.info" />
     <entry file="file://$PROJECT_DIR$/src/backTracking/dir.info">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -508,16 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="587" column="48" selection-start-line="587" selection-start-column="41" selection-end-line="587" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hashTable/Solution01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -540,10 +539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/slidingWindow/Solution03Test.java">
+    <entry file="file://$PROJECT_DIR$/src/hashTable/Solution01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="210">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -552,7 +551,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slidingWindow/Solution03.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
+        <state relative-caret-position="330">
           <caret line="28" column="31" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -562,8 +561,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/binarySearch/Solution04.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+        <state relative-caret-position="780">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28470">
+          <caret line="1969" column="54" selection-start-line="1969" selection-start-column="48" selection-end-line="1969" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slidingWindow/Solution03Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/Solution05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/Solution06.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
