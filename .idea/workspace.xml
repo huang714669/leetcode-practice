@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be200aa5-035d-4c9f-b4b5-394bd4643bd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stack/Solution23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/Solution27.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +69,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="slidingWindow" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="array" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -82,46 +85,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.Solution23">
-    <configuration name="Solution17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="depthFirstSearch.Solution17" />
-      <module name="leetcode-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="depthFirstSearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.Solution18" />
-      <module name="leetcode-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedList.Solution19" />
-      <module name="leetcode-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution28">
     <configuration name="Solution21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedList.Solution21" />
       <module name="leetcode-practice" />
@@ -148,13 +112,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.Solution26" />
+      <module name="leetcode-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.Solution27" />
+      <module name="leetcode-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.Solution28" />
+      <module name="leetcode-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution28" />
+        <item itemvalue="Application.Solution27" />
+        <item itemvalue="Application.Solution26" />
         <item itemvalue="Application.Solution23" />
         <item itemvalue="Application.Solution21" />
-        <item itemvalue="Application.Solution19" />
-        <item itemvalue="Application.Solution18" />
-        <item itemvalue="Application.Solution17" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +184,7 @@
       <workItem from="1587704628195" duration="603000" />
       <workItem from="1587710527306" duration="481000" />
       <workItem from="1587966478737" duration="2075000" />
-      <workItem from="1588234403744" duration="61555000" />
+      <workItem from="1588234403744" duration="70271000" />
     </task>
     <servers />
   </component>
@@ -207,30 +210,38 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="801" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1588580761136" />
-    <state width="1807" height="270" key="GridCell.Tab.0.bottom" timestamp="1589268340065">
+    <state width="1807" height="270" key="GridCell.Tab.0.bottom" timestamp="1589876705186">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="270" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1589268340065" />
-    <state width="1807" height="270" key="GridCell.Tab.0.center" timestamp="1589268340065">
+    <state width="1807" height="270" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1589876705186" />
+    <state width="1807" height="270" key="GridCell.Tab.0.center" timestamp="1589876705186">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="270" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1589268340065" />
-    <state width="1807" height="270" key="GridCell.Tab.0.left" timestamp="1589268340065">
+    <state width="1807" height="270" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1589876705186" />
+    <state width="1807" height="270" key="GridCell.Tab.0.left" timestamp="1589876705186">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="270" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1589268340065" />
-    <state width="1807" height="270" key="GridCell.Tab.0.right" timestamp="1589268340065">
+    <state width="1807" height="270" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1589876705186" />
+    <state width="1807" height="270" key="GridCell.Tab.0.right" timestamp="1589876705186">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="270" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1589268340065" />
+    <state width="1807" height="270" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1589876705186" />
     <state x="402" y="262" key="SettingsEditor" timestamp="1589187098510">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="402" y="262" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1589187098510" />
+    <state x="476" y="166" width="1025" height="773" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589876508419">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="476" y="166" width="1025" height="773" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1589876508419" />
     <state x="754" y="357" width="469" height="391" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589186999850">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="754" y="357" width="469" height="391" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1589186999850" />
+    <state x="684" y="293" width="618" height="518" key="find.popup" timestamp="1589871732391">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="684" y="293" width="618" height="518" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1589871732391" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1588755093485">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
