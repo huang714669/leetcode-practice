@@ -17,6 +17,7 @@ public class Solution28 {
 
     /**
      * 双指针解法
+     *
      * @param haystack
      * @param needle
      * @return
@@ -27,7 +28,7 @@ public class Solution28 {
         //边界条件
         if (len1 < len2) return -1;
         if (len2 == 0) return 0;
-        while ( q < len1 ) {
+        while (q < len1) {
             //如果q位置匹配needle第一个字符
             if (haystack.charAt(q) == needle.charAt(0)) {
                 //将p移动到q位置
@@ -36,9 +37,9 @@ public class Solution28 {
                 if (len2 == 1) return p;   //如果needle长度唯一，直接返回p
                 int i = 1;
                 for (; i < len2; i++) {
-                    if (q + i >= len1 || haystack.charAt(q + i) != needle.charAt(i)  ) break;
+                    if (q + i >= len1 || haystack.charAt(q + i) != needle.charAt(i)) break;
                 }
-                System.out.println("i"+i);
+                System.out.println("i" + i);
                 if (i == len2) return p;
             }
             q++;

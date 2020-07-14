@@ -7,7 +7,7 @@ processor.doLoad = function doLoad() {
     this.c2 = document.getElementById('c2');
     this.ctx2 = this.c2.getContext('2d');
     let self = this;
-    this.video.addEventListener('play', function() {
+    this.video.addEventListener('play', function () {
         self.width = self.video.videoWidth / 2;
         self.height = self.video.videoHeight / 2;
         self.timerCallback();

@@ -14,17 +14,19 @@ import java.util.PriorityQueue;
 class ListNode {
     int val;
     ListNode next;
-    public  ListNode(int val) {
+
+    public ListNode(int val) {
         this.val = val;
     }
 }
+
 public class Solution23 {
     public static void main(String[] args) {
         Solution23 solution23 = new Solution23();
-        List<ListNode>  lists = new ArrayList<>();
-        int[][] samData = {{1,4,5}, {1,3,4}, {2,6}};
-        for (int[] arr:
-             samData) {
+        List<ListNode> lists = new ArrayList<>();
+        int[][] samData = {{1, 4, 5}, {1, 3, 4}, {2, 6}};
+        for (int[] arr :
+                samData) {
             ListNode temp = new ListNode(arr[0]);
             ListNode head = temp;
             for (int i = 1; i < arr.length; i++) {
@@ -52,6 +54,7 @@ public class Solution23 {
      * 2. 队列初始化：将lists所有的ListNode传入优先级队列
      * 3. 从队列中取出一个值，即为最小值节点，作为结果队列的next指针，如果该节点next不为空，将next节点加入队列
      * 4. 重复第3步骤，直至所有节点的遍历结束，返回结果
+     *
      * @param lists
      * @return
      */
@@ -64,20 +67,21 @@ public class Solution23 {
             else if (o1.val == o2.val) return 0;
             else return 1;
         });
-        for (ListNode node: lists) {
-            if(node != null) queue.offer(node);
+        for (ListNode node : lists) {
+            if (node != null) queue.offer(node);
         }
         while (queue.isEmpty() == false) {
             ListNode node = queue.poll();
             dummy.next = node;
             dummy = dummy.next;
-            if(node.next != null) queue.offer(node.next);
+            if (node.next != null) queue.offer(node.next);
         }
-        return  head.next;
+        return head.next;
     }
 
     /**
      * 解法二： 使用分治的解法，将问题用二分法递归拆分成多个子问题，最后合并，对每个子集使用两个链表合并的算法
+     *
      * @param lists
      * @return
      */
@@ -87,11 +91,11 @@ public class Solution23 {
     }
 
     private ListNode merge(ListNode[] lists, int left, int right) {
-        if (left == right) return  lists[left]; //左右相同，到达中间点，直接返回该位置节点
-        int mid = left + (right -left) / 2;
+        if (left == right) return lists[left]; //左右相同，到达中间点，直接返回该位置节点
+        int mid = left + (right - left) / 2;
         ListNode l1 = merge(lists, left, mid);
         ListNode l2 = merge(lists, mid + 1, right);
-        return  mergeTwoLists(l1, l2);
+        return mergeTwoLists(l1, l2);
     }
 
     private ListNode mergeTwoLists(ListNode l1, ListNode l2) {

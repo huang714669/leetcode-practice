@@ -2,7 +2,7 @@ package array;
 
 public class Solution11 {
     public static void main(String[] args) {
-        int[] arr = new int[]{ 1, 2 };
+        int[] arr = new int[]{1, 2};
         Solution11 solution11 = new Solution11();
         int res = solution11.maxArea(arr);
         System.out.println(res);
@@ -10,6 +10,7 @@ public class Solution11 {
 
     /**
      * 解法： 使用双指针法，每次移动较小端的指针
+     *
      * @param height
      * @return
      */

@@ -17,13 +17,14 @@ public class Solution06 {
      * 遍历字符串每个字符，并加入合适的行中，判断行逻辑如下
      * 1. 当curRow为0， go down， 当curRow为numsRow-1, go up
      * 2. go down时，curRow +1, go up时，curRow -1
+     *
      * @param s
      * @param numRows
      * @return
      */
     public String convert(String s, int numRows) {
         char[] chars = s.toCharArray();
-        if(chars.length == 0 || numRows <=1 ) return s;
+        if (chars.length == 0 || numRows <= 1) return s;
         List<StringBuilder> rows = new ArrayList<>();
         for (int i = 0; i < Math.min(numRows, chars.length); i++) {
             rows.add(new StringBuilder());
@@ -32,13 +33,13 @@ public class Solution06 {
         int curRow = 0;
         for (char i : chars) {
             rows.get(curRow).append(i);
-            if(curRow ==0 || curRow == numRows - 1) goDown = !goDown;
+            if (curRow == 0 || curRow == numRows - 1) goDown = !goDown;
             curRow += goDown ? 1 : -1;
         }
         StringBuilder ans = new StringBuilder();
         for (StringBuilder sb : rows) {
             ans.append(sb);
         }
-        return  ans.toString();
+        return ans.toString();
     }
 }

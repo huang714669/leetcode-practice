@@ -12,6 +12,7 @@ public class Solution12 {
      * 使用贪心算法
      * 字符 M     CM    D     CD   C   XC  L   XL  X    IX  V  IV   I分别对应
      * 数值 1000  900   500   400  100 90  50  40  10   9   5   4   1
+     *
      * @param num
      * @return
      */
@@ -27,6 +28,6 @@ public class Solution12 {
             }
             index++;
         }
-        return  sb.toString();
+        return sb.toString();
     }
 }

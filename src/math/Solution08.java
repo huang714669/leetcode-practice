@@ -28,7 +28,7 @@ public class Solution08 {
     private int ans = 0;
     private String state = "start"; //初始化状态为start
     //定义状态机 start end sign is_number
-    private Map<String, String[]>  states = new HashMap<>();
+    private Map<String, String[]> states = new HashMap<>();
 
     public static void main(String[] args) {
         Solution08 sol = new Solution08();
@@ -47,7 +47,7 @@ public class Solution08 {
         for (char c : s.toCharArray()) {
             get(c);
         }
-        return (sign < 0 && ans == Integer.MAX_VALUE) ? ans * sign -1 : ans * sign;
+        return (sign < 0 && ans == Integer.MAX_VALUE) ? ans * sign - 1 : ans * sign;
     }
 
     public int getCol(char c) {
@@ -73,7 +73,7 @@ public class Solution08 {
                 ans = ans * 10 + digit;
             }
         }
-        if(state == "sign") {
+        if (state == "sign") {
             sign = (c == '+') ? 1 : -1;
         }
     }

@@ -14,12 +14,13 @@ public class Solution09 {
      * 原数每次都移除最后一位,新数每次乘10并加上新数
      * 为了防止移除,只倒转一般数字
      * 判断已经倒转一般的条件: 新数比原数大
+     *
      * @param x
      * @return
      */
     private boolean isPalindrome(int x) {
         //如果最后一位是0, 则x必须是0
-        if (x < 0 || (x % 10 == 0 && x!=0)) return false;
+        if (x < 0 || (x % 10 == 0 && x != 0)) return false;
         int half_reverse = 0;
         while (x > half_reverse) {
             half_reverse = half_reverse * 10 + x % 10;
@@ -27,7 +28,7 @@ public class Solution09 {
             System.out.println("x: " + x);
             System.out.println("half: " + half_reverse);
         }
-        if (half_reverse == x || half_reverse / 10 == x ) return true;
+        if (half_reverse == x || half_reverse / 10 == x) return true;
         return false;
     }
 

@@ -20,7 +20,7 @@ public class Solution02 {
         l1.next = new ListNode(4);
         l1.next.next = new ListNode(3);
         ListNode l2 = new ListNode(5);
-        l2.next =  new ListNode(6);
+        l2.next = new ListNode(6);
         l2.next.next = new ListNode(9);
 
         ListNode result = sol.addTwoNumbers(l1, l2);
@@ -34,25 +34,24 @@ public class Solution02 {
     }
 
     /**
-     *
      * @param l1
      * @param l2
      * @return
      */
     private ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(0);
-        ListNode p=l1, q=l2, curr=head;
+        ListNode p = l1, q = l2, curr = head;
         int carray = 0;
-        while (p!=null || q!=null) {
+        while (p != null || q != null) {
             //求和操作
             int x = (p != null) ? p.val : 0;
             int y = (q != null) ? q.val : 0;
             int sum = x + y + carray;
             carray = sum / 10;
-            curr.next = new ListNode(sum%10);
-            curr =  curr.next;
-            if (p!=null) p = p.next;
-            if (q!=null) q = q.next;
+            curr.next = new ListNode(sum % 10);
+            curr = curr.next;
+            if (p != null) p = p.next;
+            if (q != null) q = q.next;
 
         }
         //处理第一位需要进位的情况
