@@ -7,7 +7,7 @@ import utils.TreeNode;
  * @version 1.0
  * @date 2021/3/24 下午3:51
  */
-public class Offer55 {
+public class Offer55_2 {
     public boolean isBalanced(TreeNode root) {
         if (root == null) {
             return true;
