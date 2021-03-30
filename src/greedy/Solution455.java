@@ -31,7 +31,7 @@ public class Solution455 {
         int[] g = new int[]{1, 2};
         int[] s = new int[]{1, 2, 3};
         int ans = sol.findContentChildren(g, s);
-        System.out.println(ans);
+        System.out.println(ans);;
     }
 
     /**
