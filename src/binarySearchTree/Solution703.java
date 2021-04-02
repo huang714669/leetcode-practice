@@ -32,7 +32,7 @@ public class Solution703 {
     int min;
     /**
      * 使用优先级队列
-     * 将队列的大小设为k，每次从对顶取出来的数字就是第k大值
+     * 将队列的大小设为k，每次从堆顶取出来的数字就是第k大值
      */
     public Solution703(int k, int[] nums) {
         queue = new PriorityQueue<>(k);
